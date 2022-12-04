@@ -26,7 +26,8 @@ html {
 }
 
 .card {
-  border: 10px solid $grey-light;
+  box-sizing: content-box;
+  border: 10px solid rgb(181, 181, 181);
 }
 .card {
   width: 500px;
@@ -39,7 +40,9 @@ html {
 }
 
 .card .content {
+  padding: 30px 25px;
 }
+
 .content {
   padding: 30px 25px;
 }
